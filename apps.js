@@ -6,6 +6,7 @@ const game = ()=>{
 
         playBtn.addEventListener('click', ()=>{
             introScreen.classList.add('fadeOut') ;
+            puzzle.classList.add('fadeIn') ;
         });
     };
 
