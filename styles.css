@@ -39,6 +39,7 @@ button{
     height: 50px ;
     background-color:  rgb(50, 250, 50) ;
     font-size: 15px ;
+    cursor: pointer ;
 }
 
 .puzzle{
@@ -49,4 +50,9 @@ button{
     display: flex ;
     justify-content: space-around ;
     align-items: center ;
+}
+
+div.fadeOut{
+    opacity: 0 ;
+    pointer-events: none ;
 }
