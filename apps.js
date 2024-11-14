@@ -9,9 +9,14 @@ const game = ()=>{
             puzzle.classList.add('fadeIn') ;
         });
     };
+    //puzzle play
+    const playPuzzle = ()=>{
+        
+    }
 
     //inner function call
     startGame();
+    playPuzzle();
 };
 
 //game call
