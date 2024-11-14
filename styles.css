@@ -31,7 +31,6 @@ h1{
     flex-direction: column ;
     align-items: center ;
     justify-content: space-around ;
-    opacity: 0;
 }
 
 button{
@@ -55,4 +54,9 @@ button{
 div.fadeOut{
     opacity: 0 ;
     pointer-events: none ;
+}
+
+div.fadeIn{
+    opacity: 1 ;
+    pointer-events: all ;
 }
