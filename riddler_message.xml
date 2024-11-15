@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="styles.css" version="1.0" encoding="UTF-8"?>
 <note>
-  <heading>Impossible</heading>
-  <body>You must have cheated!</body>
+  <heading>Impossible! You must have cheated!</heading>
 </note>

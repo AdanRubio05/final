@@ -6,7 +6,7 @@
 
 section{
     height: 100vh ;
-    background-color: rgb(53, 53, 53) ;
+    background-color: rgb(0, 0, 0) ;
 }
 
 p{
@@ -67,3 +67,11 @@ div.fadeIn{
     align-items: center ;
     justify-content: space-evenly ;
 }
+
+heading{
+    color: rgb(50, 250, 50);
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
