@@ -43,12 +43,9 @@ button{
 }
 
 .puzzle{
-    position: absolute ;
-    top: 50% ;
-    left: 50% ;
-    transform: translate(-50%, -50%) ;
     display: flex ;
-    justify-content: space-around ;
+    flex-direction: column ;
+    justify-content: space-evenly ;
     align-items: center ;
     transition: opacity 0.3s ease 0.3s ;
 }
@@ -63,7 +60,7 @@ div.fadeIn{
     pointer-events: all ;
 }
 
-.options{
+div.options{
     display: flex ;
     flex-direction: row ;
     align-items: center ;

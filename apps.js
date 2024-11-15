@@ -10,6 +10,7 @@ const game = ()=>{
         });
     };
 
+
     //inner function call
     startGame();
 
