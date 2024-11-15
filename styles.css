@@ -6,7 +6,7 @@
 
 section{
     height: 100vh ;
-    background-color: black ;
+    background-color: rgb(128, 128, 128) ;
 }
 
 p{
@@ -63,10 +63,7 @@ div.fadeIn{
     pointer-events: all ;
 }
 
-.answerButton{
-    width: 150px ;
-    height: 50px ;
-    background-color:  rgb(50, 250, 50) ;
-    font-size: 15px ;
-    cursor: pointer ;
+input[type='radio']{
+    background-color: rgb(50, 250, 50) ;
+    color: rgb(50, 250, 50) ;
 }

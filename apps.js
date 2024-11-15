@@ -11,7 +11,6 @@ const game = ()=>{
     };
     //puzzle play
     const playPuzzle = ()=>{
-        
     }
 
     //inner function call
