@@ -24,6 +24,26 @@ function myOption1() {
   }
 
   function myOption3() {
-    alert("Someone clearly can't recite the alphabet. XD");
+    alert("Someone clearly can't recite the alphabet.");
+  }
+
+  function myOption4() {
+    alert("Tut tut, you really are a dummard.");
+  }
+
+  function myOption5() {
+    alert("I don't know if I should cry or laugh!");
+  }
+
+  function myOption6() {
+    alert("Your intellect is starting to irritate me...");
+  }
+
+  function myOption7() {
+    alert("Clearly, Gotham sent their 'best'.");
+  }
+
+  function myOption8() {
+    alert("Can't you tell the difference between numbers and letters? Apples to Oranges.");
   }
 
