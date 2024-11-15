@@ -19,6 +19,17 @@ const game = ()=>{
 //game call
 game();
 
+
+function loadDoc() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      document.getElementById("message").innerHTML =
+      this.responseText;
+    }
+    xhttp.open("GET", "riddler_message.xml");
+    xhttp.send();
+  }
+
 function myOption1() {
     alert("Are you even trying?!");
   }
