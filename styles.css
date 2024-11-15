@@ -6,7 +6,7 @@
 
 section{
     height: 100vh ;
-    background-color: rgb(128, 128, 128) ;
+    background-color: rgb(0, 0, 0) ;
 }
 
 p{
@@ -63,7 +63,9 @@ div.fadeIn{
     pointer-events: all ;
 }
 
-input[type='radio']{
-    background-color: rgb(50, 250, 50) ;
-    color: rgb(50, 250, 50) ;
+.options{
+    display: flex ;
+    flex-direction: row ;
+    align-items: center ;
+    justify-content: space-around ;
 }

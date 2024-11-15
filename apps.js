@@ -9,14 +9,20 @@ const game = ()=>{
             puzzle.classList.add('fadeIn') ;
         });
     };
-    //puzzle play
-    const playPuzzle = ()=>{
-    }
 
     //inner function call
     startGame();
-    playPuzzle();
+
 };
 
 //game call
 game();
+
+function myOption1() {
+    alert("Are you even trying?!");
+  }
+
+  function myOption3() {
+    alert("Someone clearly can't recite the alphabet. XD");
+  }
+
